@@ -1,9 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-</head>
-<body>
-<h2>I'm here</h2>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block content %}
+<div id='info'>
+    <p id='bio'>
+        <Emoji symbol="👋🏿" label="wave"/>
+    <h1 class="title">Hi, I'm Rodrigue!</h1>
+    </p>
+    <p>
+        I'm a software engineer based in London. I'm currently building financial software at <a href='https://www.alfasystems.com'>Alfa</a>.
+    </p>
+    <p>
+        You can find me in the following places:
+        <a href="https://github.com/rodriguekayembe"> GitHub</a> |
+        <a href="mailto:rodriguekayembe@gmail.com"> Email</a><br></br>
+        Get in touch!
+    </p>
+</div>
+{% endblock content %}

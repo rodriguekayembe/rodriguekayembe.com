@@ -9,10 +9,13 @@ description = "Personal site"
 default_language = "en"
 
 # Whether to automatically compile all Sass files in the sass directory
-compile_sass = false
+compile_sass = true
 
 # Whether to build a search index to be used later on by a JavaScript library
-build_search_index = false
+build_search_index = true
+
+# Whether to build an RSS feed
+generate_feed = true
 
 [markdown]
 # Whether to do syntax highlighting
