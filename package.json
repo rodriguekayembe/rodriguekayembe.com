@@ -1,0 +1,15 @@
+{
+  "name": "create-presta",
+  "version": "0.0.0",
+  "scripts": {
+    "build": "presta",
+    "start": "presta dev"
+  },
+  "dependencies": {
+    "presta": "*"
+  },
+  "devDependencies": {
+    "@presta/adapter-netlify": "*",
+    "typescript": "*"
+  }
+}
