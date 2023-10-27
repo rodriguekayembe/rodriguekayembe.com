@@ -6,10 +6,10 @@
     "start": "presta dev"
   },
   "dependencies": {
-    "presta": "*"
+    "presta": "^0.46.1"
   },
   "devDependencies": {
     "@presta/adapter-netlify": "*",
-    "typescript": "*"
+    "typescript": "^5.2.2"
   }
 }
