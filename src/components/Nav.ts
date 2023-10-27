@@ -3,12 +3,7 @@ export function Nav({ currentPath }: { currentPath?: string }) {
     <div class='pb6 f fw aic'>
       ${[
         { href: '/', title: 'Home' },
-        { href: '/about', title: 'About' },
-        { href: '/contact', title: 'Contact' },
-        { href: '/some-page', title: 'Some Page' },
-        { href: '/not/found', title: '404' },
-        { href: '/redirect', title: 'Redirect' },
-        { href: '/api/foo', title: 'API' },
+        { href: '/about', title: 'About' }
       ]
         .map(
           (link) =>
