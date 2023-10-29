@@ -1,7 +1,6 @@
-import { createConfig } from 'presta'
+import sourceFs from '@presta/source-filesystem'
 import netlify from '@presta/adapter-netlify'
 
-export default createConfig({
-  files: ['src/pages/*', 'src/api/*'],
-  plugins: [netlify()],
-})
+
+export const files = ["src/pages/*.ts"];
+export const plugins = [sourceFs(), netlify()]
