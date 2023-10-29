@@ -1,21 +1,17 @@
-import type { Handler } from 'presta'
-import { html } from 'presta/html'
+import { html } from '@presta/html'
 
-import * as head from '@/src/utils/head'
-import { Nav } from '@/src/components/Nav'
+import { createHeadObject } from '../util/createHeadObject'
 
 export const getStaticPaths = () => {
-  return ['/', '/about']
+  return ["/"]
 }
 
-export const handler: Handler = (event) => {
+export async function handler(event) {
   return html({
-    head,
+    head: createHeadObject(),
     body: `
-      <div class='p10'>
-        ${Nav({ currentPath: event.path })}
-        <h1>Static page: ${event.path}</h1>
-      </div>
-    `,
+    <div class='p10'>
+    </div>
+  `,
   })
 }

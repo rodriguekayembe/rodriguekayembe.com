@@ -1,23 +1,19 @@
-import type { Handler } from 'presta'
-import { html } from 'presta/serialize'
-import { html as document } from 'presta/html'
+import { html } from "@presta/html";
 
-import * as head from '@/src/utils/head'
-import { Nav } from '@/src/components/Nav'
+
+import { createHeadObject } from '../util/createHeadObject'
 
 export const route = '*'
 
-export const handler: Handler = (event) => {
-  return html({
+export async function handler() {
+  return {
     statusCode: 404,
-    body: document({
-      head,
+    html: html({
+      head: createHeadObject(),
       body: `
-        <div class='p10'>
-          ${Nav({ currentPath: event.path })}
-          <h1>404 Not Found: ${event.path}</h1>
-        </div>
-      `,
+      <div class='p10'>
+      </div>
+    `,
     }),
-  })
+  };
 }
