@@ -1,6 +1,6 @@
 import { html } from '@presta/html'
 
-import { createHeadObject } from '../util/createHeadObject'
+import { createHeadObject } from '@/util/createHeadObject'
 
 export const getStaticPaths = () => {
   return ["/"]
