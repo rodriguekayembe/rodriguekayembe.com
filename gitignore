@@ -1,4 +1,4 @@
 .presta
 .idea
 build
-dist
+node_modules
