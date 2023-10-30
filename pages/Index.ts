@@ -3,7 +3,7 @@ import { html } from '@presta/html'
 import { createHeadObject } from '@/util/createHeadObject'
 
 export const getStaticPaths = () => {
-  return ["/"]
+  return ["/"];
 }
 
 export async function handler(event) {
