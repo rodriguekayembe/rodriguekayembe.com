@@ -2,8 +2,8 @@
   "private": true,
   "name": "rodriguekayembe",
   "scripts": {
-    "build": "presta",
     "start": "presta dev",
+    "build": "presta",
     "serve": "presta serve"
   },
   "dependencies": {
