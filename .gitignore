@@ -1,6 +1,4 @@
-
-.presta/manifest.json
-.presta/static/about/index.html
-.presta/static/index.html
+.presta
+.idea
+build
 node_modules
-package-lock.json
