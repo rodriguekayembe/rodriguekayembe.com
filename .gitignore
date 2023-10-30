@@ -3,3 +3,4 @@
 .presta/static/about/index.html
 .presta/static/index.html
 node_modules
+package-lock.json
