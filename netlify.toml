@@ -1,5 +1,5 @@
 [build]
-  command = 'pnpm build'
+  command = 'command = 'npm run build'
   publish = 'build/static'
   functions = 'build/functions'
 
