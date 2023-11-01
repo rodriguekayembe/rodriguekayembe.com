@@ -1,7 +1,7 @@
 [build]
-  command = 'npm run build'
-  publish = 'build/static'
-  functions = 'build/functions'
+	command = 'npm run build'
+	publish = '.presta/static'
+	functions = '.presta/functions'
 
 [functions]
   node_bundler = 'esbuild'
