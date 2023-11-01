@@ -4,7 +4,8 @@
   "scripts": {
     "start": "presta dev",
     "build": "presta",
-    "serve": "presta serve"
+    "serve": "presta serve",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@presta/html": "^0.1.8",
