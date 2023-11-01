@@ -3,7 +3,7 @@
   "name": "rodriguekayembe",
   "scripts": {
     "start": "presta dev",
-    "build": "presta",
+    "build": "presta 'pages/*.ts'",
     "serve": "presta serve"
   },
   "dependencies": {
