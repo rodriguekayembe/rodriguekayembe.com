@@ -3,9 +3,8 @@
   "name": "rodriguekayembe",
   "scripts": {
     "start": "presta dev",
-    "build": "presta",
-    "serve": "presta serve",
-    "format": "prettier --write ."
+    "build": "presta 'pages/*.ts'",
+    "serve": "presta serve"
   },
   "dependencies": {
     "@presta/html": "^0.1.8",
