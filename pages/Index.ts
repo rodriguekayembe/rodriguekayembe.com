@@ -1,5 +1,5 @@
 
-import { createHeadObject } from '@/util/createHeadObject'
+import { createHeadObject } from '@/util/createHeadObject';
 import { html } from '@presta/html';
 
 export const getStaticPaths = () => {
@@ -16,7 +16,7 @@ export async function handler(event) {
       </div>
       <div class = "section bio">
       I'm a software engineer currently on mini retirement. Previously worked at <a href="https://www.alfasystems.com/" target="_blank">Alfa</a> and in a previous life studied law. <br><br>
-      I was born in Tshikapa, grew up in Dublin, and I am a part-time Londoner. <br><br>
+      I was born in Tshikapa, grew up in Dublin, I am a part-time Londoner and part-time wanderer. <br><br>
 
       I'm interested in travelling, reading, basketball, lifting, storytelling, entrepreneurship, technology & the internet.
 
