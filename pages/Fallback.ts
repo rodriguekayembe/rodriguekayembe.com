@@ -5,7 +5,7 @@ import { createHeadObject } from '@/util/createHeadObject'
 
 export const route = '*'
 
-export async function handler() {
+export async function handler(): Promise<{ statusCode: number; html: string; }> {
   return {
     statusCode: 404,
     html: html({
