@@ -1,0 +1,133 @@
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 24px;
+}
+#writing:target {
+  background-color: #FDFD96;
+  animation: fadeout 2s forwards;
+  animation-delay: 2s;
+  -moz-animation: fadeout 2s forwards;
+  -moz-animation-delay: 2s;
+  -webkit-animation: fadeout 2s forwards;
+  -webkit-animation-delay: 2s;
+  -o-animation: fadeout 2s forwards;
+  -o-animation-delay: 2s;
+}
+@keyframes fadeout {
+  to {
+      background-color: #fff;
+  }
+}
+@-moz-keyframes fadeout {
+  to {
+      background-color: #fff;
+  }
+}
+@-webkit-keyframes fadeout {
+  to {
+      background-color: #fff;
+  }
+}
+@-o-keyframes fadeout {
+  to {
+      background-color: #fff;
+  }
+}
+a:link {
+  color: #213ea7;
+}
+a:visited {
+  color: #000080;
+}
+a:hover {
+  color: #1f1f91;
+}
+a:active {
+  color: #000080;
+}
+::selection {
+  background: #ff8000;
+  /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ff8000;
+  /* Gecko Browsers */
+}
+#article-expand {
+  display: none;
+}
+.title {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 1.125em;
+  font-weight: bold;
+  font-family: -apple-system, BlinkMacSystemFont, 'Source Sans Pro', sans-serif;
+}
+.section {
+  margin-bottom: 30px;
+}
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 100px;
+  width: 500px;
+}
+.writing-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.misc-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.outer {
+  padding: 24px;
+}
+
+@media (min-width: 900px) {
+  .outer {
+    padding: 48px;
+  }
+  .left-col {
+    padding-right: 40px;
+  }
+}
+
+/* Landscape phones and down */
+@media (max-width: 350px) {
+  .content {
+      margin-left: 0px;
+      max-width: 300px;
+      margin: 0 auto;
+      width: 90%;
+  }
+}
+
+/* Landscape phones and down */
+@media (min-width: 350px) and (max-width: 480px) {
+  .content {
+      margin-left: 0px;
+      max-width: 350px;
+      margin: 0 auto;
+      width: 90%;
+  }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  .content {
+      margin-left: 0px;
+      margin: 0 auto;
+  }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {}
+
+/* Large desktop */
+@media (min-width: 1200px) {}
+
+/* Very large desktop */
+@media (min-width: 1600px) {}
