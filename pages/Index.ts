@@ -6,7 +6,7 @@ export const getStaticPaths = () => {
   return ["/"];
 }
 
-export async function handler(event) {
+export async function handler() {
   return html({
     head: createHeadObject(),
     body: `
