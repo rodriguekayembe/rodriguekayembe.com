@@ -19,7 +19,7 @@
 		</div>
 
 		<div class="section writing" id="writing">
-			<b> Writing<b /></b>
+			<b><a href="/writings">Writing</a> <b/>
 		</div>
 
 		<div class="section misc" id="misc">
