@@ -11,17 +11,26 @@
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content={data.meta.title} />
 </svelte:head>
-<body class= content>
-	<article>
-		<!-- Title -->
-		<hgroup>
-			<h1>{data.meta.title}</h1>
-			<p>Published at {formatDate(data.meta.date)}</p>
-		</hgroup>
-	
-		<!-- Post -->
-		<div class="prose">
-			<svelte:component this={data.content} />
-		</div>
-	</article>
+<body>
+	<div class= "outer markdown">
+		<a href='/writings' class='pb12 caps h6 db'>
+		 <strong>
+		  &lt; Back
+		 </strong>
+	   </a>
+
+	<div class="content">
+		<article>
+			<!-- Title -->
+			<hgroup>
+				<h1>{data.meta.title}</h1>
+				<p>Published at {formatDate(data.meta.date)}</p>
+			</hgroup>
+			
+			<!-- Post -->
+			<div class="prose">
+				<svelte:component this={data.content} />
+			</div>
+		</article>
+	</div>
 </body>
