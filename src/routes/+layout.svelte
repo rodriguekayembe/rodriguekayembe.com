@@ -1,19 +1,14 @@
 <script lang="ts">
-	import * as config from '$lib/config'
+
+	import '../app.css'
 </script>
 
-<!-- Footer -->
-<footer>
-	<p>{config.title} &copy {new Date().getFullYear()}</p>
-</footer>
+<div class="layout">
 
-<style>
-	footer {
-		padding-block: var(--size-7);
-		border-top: 1px solid var(--border);
-	}
+	<main>
+		<!-- Black hole for other content -->
+		<slot />
+	</main>
 
-	p {
-		color: var(--text-2);
-	}
-</style>
+
+</div>
