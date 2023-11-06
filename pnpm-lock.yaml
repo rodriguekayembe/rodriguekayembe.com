@@ -5,15 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
-  '@fontsource/jetbrains-mono':
-    specifier: ~5.0.17
-    version: 5.0.17
-  '@fontsource/manrope':
-    specifier: ~5.0.17
-    version: 5.0.17
-  '@fontsource/open-sans':
-    specifier: ~5.0.17
-    version: 5.0.17
+  '@fontsource/source-sans-pro':
+    specifier: ~5.0.8
+    version: 5.0.8
   lucide-svelte:
     specifier: ~0.292.0
     version: 0.292.0(svelte@4.2.2)
@@ -319,16 +313,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /@fontsource/jetbrains-mono@5.0.17:
-    resolution: {integrity: sha512-Y/EtdbwKwNQTGpnMrexX8SVW6Jqlh0nX2bNHI9Z9m6FsyjbocZIFNJqwSY9bDUoi7irGtz8nuidAN7FF8wYuJA==}
-    dev: false
-
-  /@fontsource/manrope@5.0.17:
-    resolution: {integrity: sha512-c53GfQw+lsP7grblDfkXduECBdPtOHZ4AJWUT7x/WdP73sRWkLpGoCMCqH+2XielLXfGO3MEXoaN7tvq11eEtw==}
-    dev: false
-
-  /@fontsource/open-sans@5.0.17:
-    resolution: {integrity: sha512-4mIAJ/1B9pltG7NhxqReeu46L1+j/eAgwWmvjXh+FhsgcgsboQDrfn9wtUP2PWB7/JrMA4Hd9N/4qAN6kJSdyg==}
+  /@fontsource/source-sans-pro@5.0.8:
+    resolution: {integrity: sha512-5U2UvIYRkCMozZ388gCE73PEpa2MFgN/0t9O4a1FF7bGT/MIneQWSL1XpWZ8iMVYdh6ntxRf3iFA6slCIuFgkg==}
     dev: false
 
   /@humanwhocodes/config-array@0.11.13:
