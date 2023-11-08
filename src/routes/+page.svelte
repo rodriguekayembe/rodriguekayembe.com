@@ -27,7 +27,7 @@
 			<ul class="misc-list">
 				<li><a href="https://github.com/rodriguekayembe" target="_blank">Github</a></li>
 				<li><a href="https://bsky.app/profile/rodriguekayembe.com" target="_blank">Bluesky</a></li>
-				<li><a href="/scratchpad">Scratchpad</a></li>
+				<!-- <li><a href="/scratchpad">Scratchpad</a></li> -->
 				<li>Email: contact (at) rodriguekayembe (dot) com</li>
 			</ul>
 		</div>
