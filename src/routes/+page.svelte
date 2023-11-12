@@ -2,12 +2,12 @@
 	<div class="content">
 		<div class="title">Rodrigue Kayembe</div>
 		<div class="section bio">
-			I'm a software engineer currently on mini retirement. Previously worked at <a
+			I'm a software engineer, previously worked at <a
 				href="https://www.alfasystems.com/"
 				target="_blank">Alfa</a
 			>
 			and in a previous life studied law. <br /><br />
-			I was born in Tshikapa, grew up in Dublin, I am a part-time Londoner and part-time wanderer.
+			I was born in Tshikapa, and grew up in Dublin, I am a part-time Londoner and part-time wanderer.
 			<br /><br />
 
 			I'm interested in travelling, reading, basketball, lifting, storytelling, entrepreneurship,
