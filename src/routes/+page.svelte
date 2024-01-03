@@ -16,17 +16,27 @@
 
 		<div class="section projects" id="projects">
 			<b> Projects </b>
+			 <ul class= "misc-list">
+				<li>Shift - Streaming library import/export tool</li>
+			 </ul>
 		</div>
 
 		<div class="section writing" id="writing">
 			<b><a href="/writings">Writing</a> <b/>
+		</div>
+		
+		<div class="section reading" id="reading">
+			<b> Bookshelf </b>
+			<br>
+			Reading: Americanah by Chimamanda Ngozi Adichie
+			
 		</div>
 
 		<div class="section misc" id="misc">
 			<b>Contact/Miscellaneous</b>
 			<ul class="misc-list">
 				<li><a href="https://github.com/rodriguekayembe" target="_blank">Github</a></li>
-				<li><a href="https://bsky.app/profile/rodriguekayembe.com" target="_blank">Bluesky</a></li>
+				<!-- <li><a href="https://bsky.app/profile/rodriguekayembe.com" target="_blank">Bluesky</a></li> -->
 				<!-- <li><a href="/scratchpad">Scratchpad</a></li> -->
 				<li>Email: contact (at) rodriguekayembe (dot) com</li>
 			</ul>
