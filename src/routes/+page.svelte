@@ -17,7 +17,7 @@
 		<div class="section projects" id="projects">
 			<b> Projects </b>
 			 <ul class= "misc-list">
-				<li>Shift - Streaming library import/export tool</li>
+				<li><a href="https://forgottentapes.com" target="_blank">Forgotten Tapes - Streaming library transfer tool (WIP)</a></li>
 			 </ul>
 		</div>
 
