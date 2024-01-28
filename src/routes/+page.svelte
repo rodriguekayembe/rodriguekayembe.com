@@ -22,7 +22,7 @@
 		</div>
 
 		<div class="section writing" id="writing">
-			<b><a href="/writings">Writing</a> <b/>
+			<b><a href="/">Writing</a> <b/>
 		</div>
 		
 		<div class="section reading" id="reading">
