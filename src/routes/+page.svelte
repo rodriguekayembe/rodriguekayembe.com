@@ -28,7 +28,7 @@
 		<div class="section reading" id="reading">
 			<b> Bookshelf </b>
 			<br>
-			Reading: Americanah by Chimamanda Ngozi Adichie
+			Reading: Madeline Miller ~ Circe & Mark Tegmark ~ Life 3.0  
 			
 		</div>
 
