@@ -5,7 +5,7 @@ export const handle = async ({ event, resolve }) => {
     const path = url.pathname;
 
     // Check if the request is for the /api/admin endpoint
-    if (path.includes('/api/cv')) {
+    if (path.endsWith('/cv')) {
         const auth = event.request.headers.get('Authorization');
 
         if (!auth || auth !== `Basic ${btoa(ADMIN_LOGIN)}`) {
