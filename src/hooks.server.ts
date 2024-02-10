@@ -4,7 +4,7 @@ export const handle = async ({ event, resolve }) => {
     const url = new URL(event.request.url);
     const path = url.pathname;
 
-    // Check if the request is for the /api/admin endpoint
+    // Check if the request is for the /cv endpoint
     if (path.endsWith('/cv')) {
         const auth = event.request.headers.get('Authorization');
 
