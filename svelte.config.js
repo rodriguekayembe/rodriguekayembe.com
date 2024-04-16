@@ -1,5 +1,5 @@
-import adapter from '@sveltejs/adapter-netlify';
 import { vitePreprocess } from '@sveltejs/kit/vite'
+import netlify from '@sveltejs/adapter-netlify';
 
 import { mdsvex } from 'mdsvex'
 
@@ -13,7 +13,7 @@ const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
-		adapter: adapter()
+		adapter: netlify()
 	}
 };
 
