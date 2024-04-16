@@ -1,3 +1,5 @@
+<script>
+	import Feed from '../components/Feed.svelte';</script>
 <div>
 	<div class="content">
 		<div class="title">Rodrigue Kayembe</div>
@@ -11,7 +13,7 @@
 		<div class="section projects" id="projects">
 			<b> Projects </b>
 			<ul class="misc-list">
-				<li><a href="https://forgottentapes.com" target="_blank"> Forgotten Tapes - Transfer library across Apple Music/Spotify </a></li>
+				<li><a href="https://forgottentapes.com" target="_blank" rel="noopener noreferrer"> Forgotten Tapes - Transfer library across Apple Music/Spotify </a></li>
 			</ul>
 		</div>
 		<div class="section writing" id="writing">
@@ -26,9 +28,14 @@
 		<div class="section misc" id="misc">
 			<b>Contact/Miscellaneous</b>
 			<ul class="misc-list">
-				<li><a href="https://github.com/rodriguekayembe" target="_blank">Github</a></li>
+				<li><a href="https://github.com/rodriguekayembe" target="_blank" rel="noopener noreferrer">Github</a></li>
 				<li>Email: contact (at) rodriguekayembe (dot) com</li>
 			</ul>
 		</div>
+
+		<div>
+			<Feed/>
+		</div>
+
 	</div>
 </div>
