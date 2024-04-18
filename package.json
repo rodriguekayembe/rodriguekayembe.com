@@ -34,7 +34,7 @@
 		"@fontsource/source-sans-pro": "~5.0.8",
 		"@omnivore-app/api": "^1.0.4",
 		"axios": "^1.6.8",
-		"lucide-svelte": "~0.292.0",
+		"lucide-svelte": "^0.292.0",
 		"open-props": "~1.6.10"
 	}
 }

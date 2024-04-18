@@ -1,5 +1,7 @@
 <script>
-	import Feed from '../components/Feed.svelte';</script>
+	import Feed from '../components/Feed.svelte';
+	import Contact from '../components/Contact.svelte';
+</script>
 <div>
 	<div class="content">
 		<div class="title">Rodrigue Kayembe</div>
@@ -25,12 +27,9 @@
 			<br>
 			Reading: Madeline Miller ~ Circe
 		</div>
-		<div class="section misc" id="misc">
-			<b>Contact/Miscellaneous</b>
-			<ul class="misc-list">
-				<li><a href="https://github.com/rodriguekayembe" target="_blank" rel="noopener noreferrer">Github</a></li>
-				<li>Email: contact (at) rodriguekayembe (dot) com</li>
-			</ul>
+
+		<div>
+			<Contact/>
 		</div>
 
 		<div>
