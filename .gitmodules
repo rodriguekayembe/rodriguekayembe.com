@@ -1,0 +1,3 @@
+[submodule "hugo/main/themes/personal-site-theme"]
+	path = hugo/main/themes/personal-site-theme
+	url = git@github.com:rodriguekayembe/personal-site-theme.git
