@@ -48,3 +48,7 @@ unsafe = true
 [markup.goldmark.extensions.passthrough]
 enable = true
 delimiters = { block = [["\\[", "\\]"], ["$$", "$$"]], inline = [["\\(", "\\)"]] }
+
+[module]
+[[module.imports]]
+path = "github.com/rodriguekayembe/personal-site-theme"
